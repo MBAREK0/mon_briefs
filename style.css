@@ -55,8 +55,14 @@ main {
     padding: 40px 0;
 }
 
-section {
-    padding: 40px 0;
+#home {
+    padding: 150px;
+
+}
+p.capturons{
+
+    margin-left:33% ;
+
 }
 
 h2 {
@@ -72,8 +78,10 @@ h2 {
     background-color: #333;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 100px;
     font-weight: bold;
+    margin-left: 42%;
+    margin-top: 5%;
 }
 
 /* Styles des services */
@@ -81,16 +89,21 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    
+}
+#services{
+    padding: 150px;
+
 }
 
-.service img {
+#services img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
 
-.service img:hover {
+#services img:hover {
     transform: scale(1.1);
 }
 
@@ -118,7 +131,9 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    /* padding-top: 10px ; */
+    padding-bottom: 10px;
+    margin-bottom: -40px;
 }
 
 /* Styles responsives */
